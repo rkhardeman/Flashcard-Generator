@@ -1,0 +1,3 @@
+
+{"type":"cloze","text":"Charizard is a fire type pokemon.","cloze":"fire","clozeDeleted":"Charizard is a ____ type pokemon."}
+{"type":"basic","front":"What type of Pokemon is Charizard?","back":"A fire flying type!"}
