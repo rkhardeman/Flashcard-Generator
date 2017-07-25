@@ -5,15 +5,15 @@ function BasicCard(front, back){
 	this.back = back;
 
 	this.create = function(){
-		var data ={
+		var cardData ={
 			type:'basic',
 			front: this.front,
 			back: this.back
 		};
-		writeFile(cardWrite);
+		writeFile(cardData);
 	};
 
-	function writeFile(cardWrite) {
+	function writeFile(cardData) {
   		fs.appendFile('./log.txt', "\r\n" + JSON.stringify(cardData), 'utf8', function (error, data) {
    		});
 	};
